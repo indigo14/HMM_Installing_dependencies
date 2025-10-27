@@ -1,0 +1,20 @@
+i dont need code, i am asking for more information (beginner level), tohelp me make decisions on path forward. My imu is transmitting via wif 50Hz, and being recieved by pc at close to that. But further processing shows 70% packet loss. From arduino serial monitor. I occasionaly get this:
+Here is response from coding agent
+i want to start a new session please write a summary of where we are, what weve tried etc.
+
+
+
+How to Instruct Future Sessions
+When starting a new Claude Code session, include this in your initial message:
+
+I prefer the "run and report" workflow:
+1. Write/modify code as needed
+2. Run it in the background (using Bash with run_in_background=true)
+3. Monitor output periodically (using BashOutput tool)
+4. Report back with actual results and metrics
+5. Suggest next steps based on observations
+
+Don't just write code and wait - test it and show me real results!
+
+
+
